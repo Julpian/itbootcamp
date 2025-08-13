@@ -11,9 +11,19 @@
             margin: 0 auto;
             max-width: 800px;
             padding: 20px;
+            background-color: #0d1117;
+            color: #c9d1d9;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #58a6ff;
+        }
+        h1 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 1.5em;
         }
         ul {
             list-style-type: disc;
@@ -22,13 +32,16 @@
         p {
             margin: 10px 0;
         }
+        strong {
+            color: #58a6ff;
+        }
     </style>
 </head>
 <body>
     <h1>IT Bootcamp - Himpunan Mahasiswa Informatika (HMIF) Universitas Siliwangi</h1>
 
     <h2>Deskripsi Program</h2>
-    <p>IT Bootcamp adalah program kerja yang diselenggarakan oleh <strong>Himpunan Mahasiswa Informatika (HMIF)</strong> Universitas Siliwangi. Program ini bertujuan untuk memberikan pelatihan intensif kepada mahasiswa dalam berbagai bidang teknologi informasi, termasuk <strong>Data Science</strong>. Saya memiliki kesempatan untuk menjadi mentor pada <strong>Kelas Data Science</strong> selama satu minggu, mengajarkan <strong>6 materi</strong> yang mencakup dasar-dasar Data Science dan pengenalan tentang pekerjaan sebagai seorang Data Scientist.</p>
+    <p>IT Bootcamp adalah program kerja yang diselenggarakan oleh <strong>Himpunan Mahasiswa Informatika (HMIF)</strong> Universitas Siliwangi.</p>
 
     <h2>Isi Kelas Data Science</h2>
     <p>Selama satu minggu, saya mengajarkan materi-materi berikut kepada mahasiswa:</p>
@@ -48,17 +61,5 @@
         <li><strong>Random Forest</strong>: Model berbasis ensemble untuk klasifikasi yang akurat.</li>
         <li><strong>K-Nearest Neighbors (KNN)</strong>: Model berbasis jarak untuk memprediksi risiko penyakit jantung.</li>
     </ul>
-    <p>Proyek ini mencakup tahapan lengkap Data Science, mulai dari pengumpulan data, preprocessing, pelatihan model, hingga evaluasi performa model.</p>
-
-    <h2>Tujuan Proyek</h2>
-    <ul>
-        <li>Memperkenalkan mahasiswa pada aplikasi nyata Data Science.</li>
-        <li>Melatih kemampuan analisis data dan implementasi Machine Learning.</li>
-        <li>Memberikan wawasan tentang pentingnya data dalam pengambilan keputusan di bidang kesehatan.</li>
-    </ul>
-
-    <h2>Kontribusi</h2>
-    <p>Proyek ini adalah hasil kerja mahasiswa di bawah bimbingan saya sebagai mentor. Kode dan dokumentasi dalam repositori ini mencerminkan proses pembelajaran dan implementasi model prediksi penyakit jantung.</p>
-    <p>Terima kasih kepada <strong>HMIF Universitas Siliwangi</strong> atas kesempatan ini, dan kepada semua peserta yang telah antusias mengikuti kelas Data Science!</p>
 </body>
 </html>
